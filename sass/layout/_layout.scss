@@ -1,0 +1,29 @@
+.container {
+  // outline: 1px solid red;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+%btn {
+  display: inline-block;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 4px;
+}
+
+%list {
+  list-style-type: none;
+}
+
+%links-hover-focus {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
