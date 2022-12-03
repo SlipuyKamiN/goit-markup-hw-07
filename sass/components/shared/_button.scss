@@ -11,6 +11,6 @@
   border-radius: 4px;
   border: none;
 
-  transition: background-color $action-total-time $action-time,
-    box-shadow $action-total-time $action-time;
+  transition: color $action-total-time $action-time,
+    background-color $action-total-time $action-time, box-shadow $action-total-time $action-time;
 }
