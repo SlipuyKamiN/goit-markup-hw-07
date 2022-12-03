@@ -30,18 +30,10 @@
 }
 
 .hero__btn {
-  @extend %btn;
-
   color: $primary-white-color;
   background-color: $accent-color;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  padding: 10px 24px;
 
-  transition: background-color $action-total-time $action-time,
-    box-shadow $action-total-time $action-time;
+  padding: 10px 24px;
 
   &:hover,
   &:focus {

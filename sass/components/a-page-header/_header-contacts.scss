@@ -1,6 +1,5 @@
 // header contacts
 .header__contacts {
-  @extend %list;
   display: inline-flex;
   align-items: center;
   gap: 40px;

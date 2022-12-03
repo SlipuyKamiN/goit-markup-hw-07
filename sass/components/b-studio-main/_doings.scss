@@ -9,7 +9,6 @@
 }
 
 .section__list {
-  @extend %list;
   display: flex;
   gap: 30px;
 }

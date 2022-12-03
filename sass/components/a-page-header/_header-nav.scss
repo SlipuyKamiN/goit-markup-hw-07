@@ -6,7 +6,6 @@
 }
 
 .header__list {
-  @extend %list;
   display: flex;
   gap: 50px;
   text-decoration: none;
