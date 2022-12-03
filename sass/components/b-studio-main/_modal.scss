@@ -149,11 +149,11 @@
 
 .check-line {
   margin-bottom: 30px;
+}
 
-  &__link {
-    text-decoration: underline;
-    color: $accent-color;
-  }
+.check-line__link {
+  text-decoration: underline;
+  color: $accent-color;
 }
 
 .check-line__label {

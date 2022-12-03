@@ -7,6 +7,10 @@
 /* акцент #2196F3 */
 /* білий #FFFFFF */
 /* контакти у футері color: rgba(255, 255, 255, 0.6); */
+.footer__link:hover, .header__icon:hover, .header__contact:hover, .header__link:hover, .footer__link:focus, .header__icon:focus, .header__contact:focus, .header__link:focus {
+  color: #2196f3;
+}
+
 body {
   background-color: var(--primary-white-color);
   color: var(--text-primary-color);
@@ -61,10 +65,6 @@ address {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.footer__link:hover, .header__icon:hover, .header__contact:hover, .header__link:hover, .footer__link:focus, .header__icon:focus, .header__contact:focus, .header__link:focus {
-  color: #2196f3;
 }
 
 .visually-hidden {
@@ -449,6 +449,7 @@ address {
 .check-line {
   margin-bottom: 30px;
 }
+
 .check-line__link {
   text-decoration: underline;
   color: #2196f3;

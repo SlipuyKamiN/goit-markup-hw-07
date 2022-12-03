@@ -18,3 +18,12 @@ $no-accent-color: #afb1b8;
 $primary-btn-accent-color: #188ce8;
 $action-time: cubic-bezier(0.4, 0, 0.2, 1);
 $action-total-time: 250ms;
+
+// placeholders
+
+%links-hover-focus {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
